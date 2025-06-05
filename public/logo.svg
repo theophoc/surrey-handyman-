@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g filter="url(#glow)">
+    <path d="M100 30C61.34 30 30 61.34 30 100C30 138.66 61.34 170 100 170C138.66 170 170 138.66 170 100C170 61.34 138.66 30 100 30Z" stroke="#00f2ff" stroke-width="2"/>
+    <path d="M85 70L115 130M115 70L85 130" stroke="#00f2ff" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="100" cy="100" r="40" stroke="#00f2ff" stroke-width="2"/>
+    <path d="M60 100H140" stroke="#00f2ff" stroke-width="2"/>
+    <path d="M100 60V140" stroke="#00f2ff" stroke-width="2"/>
+  </g>
+  <defs>
+    <filter id="glow" x="-20" y="-20" width="240" height="240" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#00f2ff" flood-opacity="0.5"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+</svg>
